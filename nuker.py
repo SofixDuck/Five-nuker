@@ -24,7 +24,7 @@ os.system('taskkill /f /im launcher.exe')
 clear()
 nversion = open('Bin\\curent_version.fnv', 'rb')
 nversion = nversion.read().decode('utf-8')
-os.system("title Five Nuker - v" + nversion + " - Made By G1itch")
+os.system("title NUKED BY DUXCK JOIN THE SERVER discord.gg/dcrtft - v" + version + " - Made By duckarro1")
 
 ptfc = 'Configs\\main_cfg.ini'
 pti = 'Bin\\icon.PNG'
@@ -64,15 +64,15 @@ else:
     print(f'{Fore.RED}[ERROR]' + '\033[39m' + 'Config not found! Creating new config...')
     config['BOT_CFG'] = {'prefix': '!',
                          'token': 'bot token here',
-                         'spamtext': '@everyone @here \nImagine get nuked by Five bot \nhttps://github.com/glitch65/Discord-Five-nuker-bot \nXD',
-                         'ac_name': 'five nuker on top',
+                         'spamtext': '@everyone @here \nImagine get nuked by Duxck bot \nhttps://github.com/glitch65/Discord-Five-nuker-bot \nXD',
+                         'ac_name': 'Duxck nuker on top',
                          'ac_type': '1',
                          'silent_mode': '0',
-                         'channels and roles name': 'nuked by five nuker',
-                         'webhooks name': 'five nuker',
-                         'server name':'nuked by five nuker',
-                         'ban reason': 'XDDDD',
-                         'how much pings per channel do you want?': '60',
+                         'channels and roles name': 'nuked by duxck nuker',
+                         'webhooks name': 'duxk nuker',
+                         'server name':'nuked by duxck nuker',
+                         'ban reason': 'XDDDD JOIN THE SERVER discord.gg/',
+                         'how much pings per channel do you want?': '69',
                          'how much channels do you want?': '35', 
                          'how much roles do you want?': '40',
                          'admin role name': 'sh...',
@@ -318,7 +318,7 @@ def mm():
 
 mm()
 
-welcome_text = f'{Fore.MAGENTA}Welcome to Five Nuker press enter to start nuker...'
+welcome_text = f'{Fore.MAGENTA}Welcome to Duxck Nuker press enter to start nuker...'
 
 input(welcome_text.center(120) + f'{Fore.RESET}')
 login()
